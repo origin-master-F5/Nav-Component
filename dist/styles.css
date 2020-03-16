@@ -39,13 +39,75 @@
   justify-content: space-between;
 }
 
-.navbar .bottombar .btns {
-
+.navbar .bottombar .searchbarcontainer {
+  width: 50%;
+    margin-left: 25px;
+    position: relative;
+  display: flex;
+    margin-left: 15px;
 }
+
+.navbar .bottombar input {
+  -webkit-appearance: none;
+    border: 0;
+    width: 100%;
+    padding: 10px 0 10px 10px;
+    vertical-align: middle;
+    border-radius: 4px 0 0 4px;
+    color: #1d252c;
+    border-right: none;
+}
+
+.navbar .bottombar .searchbutton {
+  border-radius: 0 4px 4px 0;
+    border: 0;
+    cursor: pointer;
+    background-color: #fff;
+}
+
 
 .navbar .bottomnavbar {
   display: flex;
   justify-content: space-between;
+}
+
+.navbar .bottombar .buttonscontainer {
+  display: flex;
+    justify-content: flex-end;
+    padding-top: 2px;
+}
+
+.store-display-name {
+  font-weight: 500;
+    padding: 0 5px 6px;
+    white-space: nowrap;
+}
+
+.navbar .bottombar .buttonscontainer button {
+  display: -webkit-box;
+    display: flex;
+    color: #fff;
+    -webkit-box-align: center;
+    align-items: center;
+    background-color: #0046be;
+    padding-top: 3px;
+}
+
+.btn-unstyled {
+  -webkit-appearance: none;
+    border: unset;
+    background: unset;
+    margin: unset;
+    padding: unset;
+    height: unset;
+    line-height: unset;
+    border-radius: unset;
+    font-size: unset;
+    vertical-align: unset;
+    font-weight: unset;
+    -webkit-transition: unset;
+    transition: unset;
+    text-align: unset;
 }
 
 
