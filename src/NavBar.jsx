@@ -1,4 +1,8 @@
 import React from 'react';
+import TopBar from './TopBar.jsx';
+import BottomBar from './BottomBar.jsx';
+import BottomNavBar from './BottomNavBar.jsx'
+import Logo from './Logo.jsx';
 
 
 class NavBar extends React.Component {
@@ -8,27 +12,19 @@ class NavBar extends React.Component {
 
   render() {
     return (
-      <div className="navbar-top">
-        <div>
-          <img className="navbar-logo" src="https://origin-master.s3-us-west-1.amazonaws.com/bblogo.png" />
-        </div>
-
-        <div className="navbar-right">
-          <div className="navbar-right-top">
-            <ul className="navbar-links">
-              <li><a href="#">Products</a></li>
-              <li><a href="#">Brands</a></li>
-              <li><a href="#">Deals</a></li>
-              <li><a href="#">Services</a></li>
-            </ul>
+      <div>
+        <div className="navbar">
+          <Logo />
+          <div>
+            <TopBar />
+            <BottomBar />
           </div>
         </div>
+            <BottomNavBar />
 
-      <div className="navbar-top">
-      <input className="navbar-search" placeholder="Search Best Buy" />
-      </div>
 
       </div>
+
     )
   }
 
