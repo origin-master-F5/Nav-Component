@@ -11,6 +11,7 @@ const TopBar = props => (
             <div className="navbar-top-right-container">
                 <TopNavItems />
                 <TopBarMiddle />
+                
             </div>
         </div>
     </div>
