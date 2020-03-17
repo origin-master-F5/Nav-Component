@@ -1,28 +1,113 @@
-
 .navbar {
-  box-sizing: border-box;
-  min-width: 992px;
   background-color: #0046be;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
-  text-decoration: none;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+    min-width: 992px;
+    font-family: Human BBY Web,Arial,Helvetica,Nimbus Sans L,Liberation Sans,FreeSans,sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
 }
 
+.navbar div {
+  display: block;
+}
 
-.navbar a, li {
-  font-family: Human BBY Web,Arial,Helvetica,Nimbus Sans L,Liberation Sans,FreeSans,sans-serif;
-  text-decoration: none;
-  color: #FFFFFF;
+.navbar .navbar-topbar {
+  padding: 13px 0px 13px 0px;
+    width: 100%;
+    z-index: 100;
+    position: relative;
+    background-color: #0046be;
+}
+
+.navbar .navbar-topbar .container {
+  padding: 0 40px 0px 40px;
+  margin: 0 auto;
+    display: flex;
+    z-index: 100;
+}
+
+.navbar-logo-container {
+  padding-top: 4px;
 }
 
 .navbar-logo {
   height: 69px;
   display: block;
   cursor: pointer;
+}
+
+.navbar-top-right-container {
+  display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 100%;
+}
+
+.navbar-topbar-items {
+  display: flex;
+    justify-content: flex-end;
+    height: 35px;
+}
+
+.navbar-topbarmiddle-container {
+  display: flex;
+    justify-content: space-between;
+}
+
+.navbar-topbarmiddle-container .searchbarcontainer {
+  width: 50%;
+    margin-left: 25px;
+    position: relative;
+}
+
+.navbar-topbarmiddle-searchbar {
+  display: flex;
+  margin-left: 15px;
+}
+
+.navbar-topbarmiddle-searchbar input{
+  -webkit-appearance: none;
+    border: 0;
+    width: 100%;
+    padding: 10px 0 10px 10px;
+    vertical-align: middle;
+    border-radius: 4px 0 0 4px;
+    color: #1d252c;
+    border-right: none;
+}
+
+.navbar-topbarmiddle-searchbar button{
+  border-radius: 0 4px 4px 0;
+    border: 0;
+    cursor: pointer;
+    background-color: #fff;
+}
+
+
+
+
+
+
+
+
+.navbar-topbar-items a, li {
+  font-family: Human BBY Web,Arial,Helvetica,Nimbus Sans L,Liberation Sans,FreeSans,sans-serif;
+  text-decoration: none;
+  color: #FFFFFF;
+}
+
+.navbar-topbar-items ul {
+  display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    justify-content: flex-end;
+}
+
+.navbar-topbar-items ul a{
+  color: #fff;
+    font-weight: 400;
+    padding: 0;
+    font-size: 13px;
+    line-height: 20px;
 }
 
 .navbar-links {
@@ -40,10 +125,10 @@
 }
 
 .navbar .bottombar .searchbarcontainer {
-  width: 50%;
+    width: 50%;
     margin-left: 25px;
     position: relative;
-  display: flex;
+    display: flex;
     margin-left: 15px;
 }
 

@@ -1,16 +1,19 @@
 import React from 'react';
+import Logo from './Logo.jsx';
+import TopNavItems from './TopNavItems.jsx';
+import TopBarMiddle from './TopBarMiddle.jsx';
+
 
 const TopBar = props => (
-        <div>
-            <ul className="navbar-links">
-                <li><a href="#">Credit Cards</a></li>
-                <li><a href="#">Top Deals</a></li>
-                <li><a href="#">Deal of the Day</a></li>
-                <li><a href="#">Gift Cards</a></li>
-                <li><a href="#">Gift Ideas</a></li>
-                <li><a href="#">For Your Business</a></li>
-            </ul>
+    <div className="navbar-topbar">
+        <div className="navbar-topbar container">
+            <Logo />
+            <div className="navbar-top-right-container">
+                <TopNavItems />
+                <TopBarMiddle />
+            </div>
         </div>
+    </div>
 )
 
 export default TopBar;

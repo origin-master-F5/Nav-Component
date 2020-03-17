@@ -12,16 +12,9 @@ class NavBar extends React.Component {
 
   render() {
     return (
-      <div>
-        <div className="navbar">
-          <Logo />
-          <div>
-            <TopBar />
-            <BottomBar />
-          </div>
-        </div>
-            <BottomNavBar />
-
+      <div className="navbar">
+        
+        <TopBar />
 
       </div>
 
