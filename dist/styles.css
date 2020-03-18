@@ -80,6 +80,37 @@
     background-color: #fff;
 }
 
+.navbar-bottombar {
+  width: 100%;
+    border-top: 1px solid #4976e6;
+    z-index: 99;
+    position: relative;
+    background-color: #0046be;
+}
+
+.navbar-bottombar .container {
+  flex-direction: row;
+    justify-content: space-between;
+    height: 45px;
+    padding: 0 40px;
+    margin: 0 auto;
+    display: flex;
+    z-index: 100;
+}
+
+.leftnavigation {
+  display: flex;
+  align-items: center;
+}
+
+.leftnavigation ul {
+  display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    padding-left: 0;
+    margin-bottom: 0;
+}
+
 
 
 
