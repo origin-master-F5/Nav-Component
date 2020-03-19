@@ -10,7 +10,6 @@
 
 .navbar .navbar-topbar {
   padding: 13px 0px 13px 0px;
-    width: 100%;
     z-index: 100;
     position: relative;
     background-color: #0046be;
@@ -50,6 +49,66 @@
   display: flex;
     justify-content: space-between;
 }
+
+.navbar-topbarmiddle-container .middle-right {
+  display: flex;
+    justify-content: flex-end;
+    padding-top: 2px;
+}
+
+.navbar-store-locator-container {
+  background-color: #0046be;
+    font-family: Human BBY Web,Arial,Helvetica,Nimbus Sans L,Liberation Sans,FreeSans,sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    position: relative;
+    z-index: 98;
+    padding-right: 25px;
+    border-right: 1px solid #4976e6;
+    margin-right: 25px;
+}
+
+.navbar-store-locator-wrapper {
+  position: relative;
+    display: inline-block;
+}
+
+.navbar-store-locator-wrapper button {
+  display: flex;
+    color: #fff;
+    -webkit-box-align: center;
+    align-items: center;
+    background-color: #0046be;
+    padding-top: 3px;
+}
+
+.navbar-store-name {
+  font-weight: 500;
+    padding: 0 5px 6px;
+    white-space: nowrap;
+}
+
+.navbar-cart-container {
+  padding-top: 4px;
+    white-space: nowrap;
+    font-size: 15px;
+}
+
+.navbar-cart-container a {
+  color: #fff;
+}
+
+.navbar-cart-container img {
+  width: 28px;
+    height: 28px;
+}
+
+.navbar-cart-label {
+  margin-left: 5px;
+}
+
+
+
 
 .navbar-topbarmiddle-container .searchbarcontainer {
   width: 50%;
@@ -109,6 +168,41 @@
     list-style-type: none;
     padding-left: 0;
     margin-bottom: 0;
+}
+
+.leftnavigation ul li button{
+  display: flex;
+  position: relative;
+    color: #fff;
+    font-weight: 500;
+    font-size: 20px;
+    padding: 0;
+    line-height: 32px;
+    background: none;
+}
+
+.rightnavigation {
+  display: flex;
+  align-items: center;
+}
+
+.rightnavigation ul {
+  display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    padding-left: 0;
+    margin-bottom: 0;
+}
+
+.rightnavigation ul li button{
+  display: flex;
+  position: relative;
+    color: #fff;
+    font-weight: 500;
+    font-size: 20px;
+    padding: 0;
+    line-height: 32px;
+    background: none;
 }
 
 
@@ -172,11 +266,15 @@
     border-right: none;
 }
 
-.navbar .bottombar .searchbutton {
+.navbar-searchbutton {
   border-radius: 0 4px 4px 0;
     border: 0;
     cursor: pointer;
     background-color: #fff;
+}
+
+.navbar-searchicon img {
+  max-height: 20px;
 }
 
 

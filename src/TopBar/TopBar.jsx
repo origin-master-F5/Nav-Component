@@ -9,9 +9,10 @@ const TopBar = props => (
         <div className="navbar-topbar container">
             <Logo />
             <div className="navbar-top-right-container">
+
                 <TopNavItems />
                 <TopBarMiddle />
-                
+
             </div>
         </div>
     </div>

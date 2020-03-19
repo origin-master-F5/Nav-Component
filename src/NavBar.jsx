@@ -1,6 +1,6 @@
 import React from 'react';
-import TopBar from './TopBar.jsx';
-import BottomBar from './BottomBar.jsx';
+import TopBar from './TopBar/TopBar.jsx';
+import BottomBar from './BottomBar/BottomBar.jsx';
 
 
 class NavBar extends React.Component {
@@ -11,7 +11,7 @@ class NavBar extends React.Component {
   render() {
     return (
       <div className="navbar">
-        
+
         <TopBar />
         <BottomBar />
 
