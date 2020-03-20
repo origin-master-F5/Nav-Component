@@ -29,7 +29,16 @@ const AutoCompleteBox = props => (
                             </a>
 
                             <a>
-
+                                <div className="navbar-rating-container">
+                                    <span className="navbar-ministars" alt="84.00%">
+                                        <span className="navbar-ministars-unfilled"></span>
+                                        <span className="navbar-ministars-filled" style={{ "width": "50%" }}></span>
+                                        
+                                    </span>
+                                    
+                                    <span className="navbar-rating-text">4.2</span>
+                                    
+                                </div>
 
                             </a>
                         </div>
