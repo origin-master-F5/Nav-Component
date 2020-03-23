@@ -8,6 +8,7 @@ const BottomBar = props => (
             <BottomLeftNav />
             <BottomRightNav />
         </div>
+        
 
     </div>
 

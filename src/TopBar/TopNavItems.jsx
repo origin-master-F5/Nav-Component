@@ -3,7 +3,7 @@ import React from 'react';
 
 const TopNavItems = props => (
         <div className="navbar-topbar-items">
-            <ul className="navbar-links">
+            <ul>
                 <li><a href="#">Credit Cards</a></li>
                 <li><a href="#">Top Deals</a></li>
                 <li><a href="#">Deal of the Day</a></li>

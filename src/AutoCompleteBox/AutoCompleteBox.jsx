@@ -24,7 +24,7 @@ const AutoCompleteBox = props => (
                         <div className="navbar-relatedproduct-detail">
                             <a>
                                 <span className="navbar-relatedproduct-title">
-                                    HP - 14" Laptop - AMD A9-Series - 4GB Memory - AMD Radeon R5 Graphics - 128GB Solid State Drive - Ash Silver
+                                    Call of Duty: Modern Warfare Standard Edition - Xbox One
                                     </span>
                             </a>
 
@@ -33,11 +33,11 @@ const AutoCompleteBox = props => (
                                     <span className="navbar-ministars" alt="84.00%">
                                         <span className="navbar-ministars-unfilled"></span>
                                         <span className="navbar-ministars-filled" style={{ "width": "50%" }}></span>
-                                        
+
                                     </span>
-                                    
-                                    <span className="navbar-rating-text">4.2</span>
-                                    
+
+                                    <span className="navbar-rating-text">4.7</span>
+
                                 </div>
 
                             </a>
