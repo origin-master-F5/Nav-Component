@@ -1,4 +1,5 @@
 import React from 'react';
+import CloseItem from '../CloseItem.jsx';
 
 
 class ProductMenu extends React.Component {
@@ -44,6 +45,7 @@ class ProductMenu extends React.Component {
                                         </li>
                                     </ul>
                                 </li>
+                                <CloseItem />
                             </ul>
                         </div>
                     </nav>

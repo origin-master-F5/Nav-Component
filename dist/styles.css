@@ -647,6 +647,25 @@ body {
     font-size: 15px;
 }
 
+.navbar-menu-close-item {
+  margin: 0 18px;
+    padding: 0;
+}
+
+.navbar-menu-close-button {
+  display: flex;
+    width: 100%;
+    padding: 16px 0;
+    margin-bottom: 100px;
+    border-radius: 0;
+    background: transparent;
+}
+
+.navbar-menu-close-button span {
+  color: #0046be;
+    font-size: 15px;
+}
+
 
 
 

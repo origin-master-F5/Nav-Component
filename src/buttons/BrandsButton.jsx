@@ -1,9 +1,9 @@
 import React from 'react';
-import ProductMenu from '../dropDownmenus/products-menu/ProductMenu.jsx'
+import BrandsMenu from '../dropDownmenus/BrandsMenu.jsx'
 import LeftNavButton from './LeftNavButton.jsx';
 
 
-class ProductsButton extends React.Component {
+class BrandsButton extends React.Component {
     constructor(props) {
         super(props);
         this.state = {
@@ -23,12 +23,12 @@ class ProductsButton extends React.Component {
 
         return (
             <li>
-                <LeftNavButton activeClass={activeClass} onClick={this.onClick} title="Products" />
-                <ProductMenu active={activeClass} />
+                <LeftNavButton activeClass={activeClass} onClick={this.onClick} title="Brands" />
+                <BrandsMenu active={activeClass} />
             </li>
         )
     }
 }
 
 
-export default ProductsButton;
+export default BrandsButton;
