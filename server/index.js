@@ -2,6 +2,7 @@ const path = require('path');
 const express = require('express');
 const port = 3001;
 const AWS = require('aws-sdk');
+const db = require('./db/models.js');
 //const keys = require('../keys.js');
 
 
@@ -14,9 +15,26 @@ app.use(express.static(path.join(__dirname, '../dist')));
 app.get('/get_image', (req, res) => {
 
   //let cloudFront = new AWS.CloudFront.Signer(keys.aws_private_key, keys.aws_public_key);
-
-
   cloudFront.getSignedUrl({}, (err, url) => { })
+
+});
+
+app.get('/get_items', (req, res) => {
+
+  db.getAllItems().then(data => {
+    res.status(200).send(data);
+  })
+  .catch(err => res.status(400).send(err));
+
+});
+
+app.post('/search', (req, res) => {
+  const text = req.body.text;
+  console.log(text);
+  db.searchString(text).then(data => {
+    res.status(200).send(data);
+  })
+  .catch(err => res.status(400).send(err));
 
 });
 
