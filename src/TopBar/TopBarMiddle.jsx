@@ -7,13 +7,13 @@ import SearchBar from './SearchBar.jsx';
 const TopBarMiddle = props => (
     <div className="navbar-topbarmiddle-container">
         <div className="searchbarcontainer">
-                <SearchBar />
+            <SearchBar />
         </div>
         <div className="middle-right">
-            <StoreLocatorButton />
+            {/* <StoreLocatorButton /> */}
             <CartButton />
         </div>
-        
+
     </div>
 )
 
