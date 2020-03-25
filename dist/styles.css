@@ -12,6 +12,10 @@ body {
     -moz-osx-font-smoothing: grayscale;
 }
 
+.navbar img {
+  vertical-align: middle;
+}
+
 .navbar ul {
   margin-top: 0;
 }
@@ -60,6 +64,7 @@ body {
   display: flex;
     justify-content: flex-end;
     height: 35px;
+    font-size: 13px;
 }
 
 .navbar-topbarmiddle-container {
@@ -108,7 +113,7 @@ body {
 .navbar-cart-container {
   padding-top: 4px;
     white-space: nowrap;
-    font-size: 15px;
+    font-size: 13px;
 }
 
 .navbar-cart-container a {
@@ -207,7 +212,7 @@ body {
 
   position: relative;
     color: #fff;
-    font-weight: 500;
+    font-weight: bold;
     font-size: 20px;
     padding: 0;
     line-height: 31px;
@@ -259,7 +264,7 @@ body {
   display: flex;
     position: relative;
     color: #fff;
-    font-weight: 500;
+    font-weight: bold;
     background: none;
     text-decoration: none;
     white-space: nowrap;
@@ -861,7 +866,7 @@ address {
   margin: 0;
     color: #55555a;
     display: inline-block;
-    font-weight: 500;
+    font-weight: bold;
 }
 
 .navbar-carousel-header-link {
@@ -907,9 +912,7 @@ address {
 }
 
 .navbar-login-header {
-  font-weight: 500;
     font-size: 35px;
-    padding-top: 10px;
 }
 
 .navbar-login-subheader {
@@ -936,8 +939,32 @@ address {
     display: inline-block;
     transition: none;
     background-image: none;
+    color:white;
 }
 
+.navbar-blue-shirt {
+  margin-top: 20px;
+    margin-left: 30px;
+    width: 130px;
+}
+
+
+.navbar-btn-link {
+  border: none;
+    margin: 0;
+    padding: 0;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.navbar-menuCloseBtn {
+  display: flex;
+    font-size: 13px;
+    position: absolute;
+    right: 11px;
+    top: 9px;
+    font-weight: 400;
+}
 
 
 
