@@ -1,6 +1,7 @@
 import React from 'react';
 import TopBar from './TopBar/TopBar.jsx';
 import BottomBar from './BottomBar/BottomBar.jsx';
+import OverlayBackdrop from './OverlayBackdrop.jsx';
 
 
 class NavBar extends React.Component {
@@ -15,6 +16,7 @@ class NavBar extends React.Component {
 
         <TopBar />
         <BottomBar />
+        {/* <OverlayBackdrop /> */}
 
       </div>
 

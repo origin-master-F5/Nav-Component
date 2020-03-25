@@ -5,7 +5,7 @@ import OrderStatusMenu from '../dropDownmenus/order-status-menu/OrderStatusMenu.
 const OrderHistoryButtonItem = props => (
     <li>
         <RightListButton title="Order Status" />
-        <OrderStatusMenu />
+        {/* <OrderStatusMenu /> */}
     </li>
 )
 

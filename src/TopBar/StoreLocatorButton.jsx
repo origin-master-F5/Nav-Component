@@ -17,7 +17,7 @@ const StoreLocatorButton = props => (
             </button>
         </span>
 
-        <div class="navbar-store-loc-overlay" style={{ "left": "-34.5px" }}>
+        {/* <div class="navbar-store-loc-overlay" style={{ "left": "-34.5px" }}>
             <div className="navbar-store-selector-overlay">
                 <h2>Culver City Westfield</h2>
                 <span className="navbar-hours-open">Open Until 6pm</span>
@@ -43,7 +43,7 @@ const StoreLocatorButton = props => (
                     <span className="sr-only">Close</span>
                 </button>
             </div>
-        </div>
+        </div> */}
     </div>
 )
 

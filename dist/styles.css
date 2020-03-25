@@ -18,6 +18,9 @@ body {
 
 .navbar ul {
   margin-top: 0;
+  margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 0px;
 }
 
 .navbar li {
@@ -943,7 +946,7 @@ address {
 }
 
 .navbar-blue-shirt {
-  margin-top: 20px;
+  margin-top: 20px; 
     margin-left: 30px;
     width: 130px;
 }
@@ -964,6 +967,18 @@ address {
     right: 11px;
     top: 9px;
     font-weight: 400;
+}
+
+.navbar-overlay-backdrop {
+  position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+
+    background-color: rgba(29,37,44,.65);
+    width: 100vw;
+    height: 100vh;
 }
 
 

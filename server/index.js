@@ -3,6 +3,7 @@ const express = require('express');
 const port = 3001;
 const AWS = require('aws-sdk');
 const db = require('./db/models.js');
+var cors = require('cors')
 //const keys = require('../keys.js');
 
 
@@ -11,6 +12,7 @@ let app = express();
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 app.use(express.static(path.join(__dirname, '../dist')));
+app.use(cors());
 
 app.get('/get_image', (req, res) => {
 

@@ -10,7 +10,7 @@ const TopBarMiddle = props => (
             <SearchBar />
         </div>
         <div className="middle-right">
-            {/* <StoreLocatorButton /> */}
+            <StoreLocatorButton />
             <CartButton />
         </div>
 
