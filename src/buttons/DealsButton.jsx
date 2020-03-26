@@ -19,11 +19,11 @@ class DealsButton extends React.Component {
 
     render() {
 
-        const activeClass = this.state.active ? "active" : "";
+        const activeClass = this.props.activeMenu === 'deals' ? "active" : "";
 
         return (
             <li>
-                <LeftNavButton activeClass={activeClass} onClick={this.onClick} title="Deals" />
+                <LeftNavButton activeClass={activeClass} menu="deals" activeClass={activeClass} setActiveMenu={this.props.setActiveMenu} title="Deals" />
                 <DealsMenu active={activeClass} />
             </li>
         )

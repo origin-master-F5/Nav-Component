@@ -5,8 +5,8 @@ import BottomLeftNav from './BottomLeftNav.jsx';
 const BottomBar = props => (
     <div className="navbar-bottombar">
         <div className="container">
-            <BottomLeftNav />
-            <BottomRightNav />
+            <BottomLeftNav activeMenu={props.activeMenu} setActiveMenu={props.setActiveMenu} />
+            <BottomRightNav activeMenu={props.activeMenu} setActiveMenu={props.setActiveMenu} />
         </div>
         
 

@@ -9,7 +9,7 @@ class ProductMenu extends React.Component {
 
     render() {
         return (
-            <div className={"menu-box-left menu-products "+this.props.active}>
+            <div className={"menu-box-left menu-products " + this.props.active}>
 
                 <div className="flyout-animation">
                     <nav>

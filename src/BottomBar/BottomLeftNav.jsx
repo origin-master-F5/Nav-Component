@@ -8,10 +8,10 @@ import ServicesButton from '../buttons/ServicesButton.jsx';
 const BottomLeftNav = props => (
     <nav className="leftnavigation">
         <ul className="itemlist">
-            <ProductsButton active="active" />
-            <BrandsButton />
-            <DealsButton />
-            <ServicesButton />
+            <ProductsButton  activeMenu={props.activeMenu} setActiveMenu={props.setActiveMenu}/>
+            <BrandsButton activeMenu={props.activeMenu} setActiveMenu={props.setActiveMenu}/>
+            <DealsButton activeMenu={props.activeMenu} setActiveMenu={props.setActiveMenu}/>
+            <ServicesButton activeMenu={props.activeMenu} setActiveMenu={props.setActiveMenu}/>
         </ul>
     </nav>
 )

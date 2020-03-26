@@ -5,7 +5,7 @@ import CloseItem from './CloseItem.jsx';
 
 
 const DealsMenu = props => (
-            <div className={"menu-box-left menu-products "+props.active} style={{"left": "200px"}}>
+            <div className={"menu-box-left menu-products "+props.active} style={{"left": "263px"}}>
 
                 <div className="flyout-animation">
                     <nav>

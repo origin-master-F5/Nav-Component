@@ -2,7 +2,7 @@ import React from 'react';
 
 const RightListButton = props => (
 
-    <button className="btn-unstyled">
+    <button className="btn-unstyled" onClick={() => {props.setActiveMenu(props.menu)}}>
         {props.title}
         <div>
             <svg width="12" height="10" viewBox="0 0 32 32" fill="#fff">

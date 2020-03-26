@@ -11,7 +11,7 @@ const TopBar = props => (
             <div className="navbar-top-right-container">
 
                 <TopNavItems />
-                <TopBarMiddle />
+                <TopBarMiddle activeMenu={props.activeMenu} setActiveMenu={props.setActiveMenu}/>
 
             </div>
         </div>

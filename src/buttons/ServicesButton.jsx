@@ -19,11 +19,11 @@ class ServicesButton extends React.Component {
 
     render() {
 
-        const activeClass = this.state.active ? "active" : "";
+        const activeClass = this.props.activeMenu === 'services' ? "active" : "";
 
         return (
             <li>
-                <LeftNavButton activeClass={activeClass} onClick={this.onClick} title="Services" />
+                <LeftNavButton menu="services" activeClass={activeClass} setActiveMenu={this.props.setActiveMenu} title="Services" />
                 <ServicesMenu active={activeClass} />
             </li>
         )

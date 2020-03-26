@@ -4,7 +4,7 @@ import React from 'react';
 
 const LeftNavButton = props => (
 
-    <button className={"btn-unstyled menuHeader " + props.activeClass} onClick={props.onClick}>
+    <button className={"btn-unstyled menuHeader " + props.activeClass} onClick={() => {props.setActiveMenu(props.menu)}}>
         {props.title}
         <div className="drop-arrow-icon ">
             <svg width="12" height="10" viewBox="0 0 32 32" fill="#fff">
