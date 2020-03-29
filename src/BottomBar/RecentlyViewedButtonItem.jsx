@@ -1,6 +1,6 @@
 import React from 'react';
 import RightListButton from './RightListButton.jsx';
-import RecentlyViewedMenu from '../dropDownmenus/RecentlyViewedMenu.jsx'
+import RecentlyViewedMenu from '../dropDownmenus/RecentlyViewedMenu/RecentlyViewedMenu.jsx'
 
 const RecentlyViewedButtonItem = props => (
     <li>
