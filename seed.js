@@ -29,8 +29,10 @@ fs.readFile("games.txt", (err, data) => {
                 image: `https://origin-master.s3-us-west-1.amazonaws.com/game_images/${randomImg}.jpg`,
             });
         }
-        //console.log(gamesArray);
-        db.insertMany(gamesArray).then(data => console.log("Data successfully seeded")).catch(err => console.log(err));
+        db.deleteMany({})
+        .then(db.insertMany(gamesArray).then(data => console.log("Data successfully seeded")).catch(err => console.log(err)))
+        .then(() => console.log('ready to close mongo!'))
+        
     }
 });
 
