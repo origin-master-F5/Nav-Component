@@ -784,6 +784,11 @@ address {
     transition: all .3s ease-out 0s;
 }
 
+.navbar-find-store-btn:hover {
+  background-color: #0046be;
+  color: #fff;
+}
+
 .navbar-arrow {
   right: -4px;
   top: -20px;
@@ -1071,6 +1076,14 @@ address {
     font-size: 15px;
     width: 100%;
     transition: unset;
+}
+
+.navbar-am-signin-button:hover {
+  background-color: #002566;
+}
+
+.navbar-btn-tertiary:hover {
+  background-color: #8591a3a8;
 }
 
 .navbar-am-vertical-bar {
