@@ -13,7 +13,8 @@ const DealsMenu = props => (
                             <ul className="header-menu header-menu-visible">
                                 <MenuBox items={["Top Deals", "Deal of the Day", "Member Offers", "Student Deals", "Best Buy Outlet", "Apple Shopping Event"]} />
                                 <MenuBoxSeperator />
-                                <MenuBox header="Featured Brands" items={["Insignia", "Lenovo", "LG", "Nikon", "Bose", "Canon", "Epson", "GoPro", "HP", "All Brands"]} />
+                                <MenuBox header="Deals by Category" items={["TVs", "Laptops & Computers", "Tablets & E Readers", "Video Games & VR", "HeadPhones", "Cell Phones", "Home Theatre", "Smart Home", "Drones, Toys", "Cameras", "Wearable Technology", "Major Appliances"
+                                , "Small Appliances", "Movies, TV shows & Music", "Printers & Home Office", "Luggage & Travel", "Car Electronics & GPS", "Best Buy for Business", "Sales & Promotions", "Clearance & More" ]} />
                                 <MenuBoxSeperator />
                                 <MenuBox header="Specialty Shops" items={["Magnolia Audio & Video", "Pacific Kitchen & Home", "Camera Experience Shop"]} />
                                 <CloseItem />

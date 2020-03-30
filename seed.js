@@ -12,6 +12,7 @@ fs.readFile("games.txt", (err, data) => {
             let console = "Xbox One";
             const num = (x/3)%3;
             const rating = (Math.random() * (4 - 3 + 1) ) + 3;
+            const randomImg = Math.floor(Math.random() * 10);
 
             if(num === 0) {
                 console = "Xbox One";
@@ -25,7 +26,7 @@ fs.readFile("games.txt", (err, data) => {
                 console,
                 rating: rating.toFixed(1),
                 name: gamesArrayRaw[x],
-                image: "https://origin-master.s3-us-west-1.amazonaws.com/game_image.jpg",
+                image: `https://origin-master.s3-us-west-1.amazonaws.com/game_images/${randomImg}.jpg`,
             });
         }
         //console.log(gamesArray);

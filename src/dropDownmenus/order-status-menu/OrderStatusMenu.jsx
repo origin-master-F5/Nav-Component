@@ -36,7 +36,7 @@ const OrderStatusMenu = props => (
                 </div>
             </div>
         </div>
-        <div className="navbar-arrow" style={{ "left": "calc(85% - 8px)" }}>
+        <div className="navbar-arrow" style={{ "left": "calc(83%)" }}>
 
         </div>
         <CloseButton />

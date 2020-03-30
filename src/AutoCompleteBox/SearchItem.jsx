@@ -5,7 +5,7 @@ const SearchItem = props => (
         <a>
             <span>
                 <span>{props.search}</span>
-                <span className="navbar-autocomplete-text" style={{"font-weight": "bold"}}>{props.text.toLowerCase().replace(props.search, '')}</span>
+                <span className="navbar-autocomplete-text" style={{ "font-weight": "bold" }}>{props.text.toLowerCase().replace(props.search, '')}</span>
             </span>
         </a>
     </li>

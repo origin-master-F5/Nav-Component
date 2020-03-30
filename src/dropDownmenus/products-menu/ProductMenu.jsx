@@ -1,5 +1,8 @@
 import React from 'react';
 import CloseItem from '../CloseItem.jsx';
+import ProductMenuButton from './ProductMenuButton.jsx';
+import MenuBox from '.././MenuBox.jsx'
+import MenuBoxSeperator from '.././MenuBoxSeperator.jsx';
 
 
 class ProductMenu extends React.Component {
@@ -18,33 +21,28 @@ class ProductMenu extends React.Component {
                                 <li className="items-with-heading">
                                     <h3 className="header">All Categories</h3>
                                     <ul>
-                                        <li className="item-parent-menu">
-                                            <button>
-                                                Appliances
-                                    <div className="caret-right">
-                                                    <svg width="25" height="25" viewBox="0 0 32 32" fill="#0046be">
-                                                        <path d="M11.385 29.319a.979.979 0 01-.78-1.566l8.854-11.75-8.854-11.748a.979.979 0 011.562-1.177l9.296 12.337a.98.98 0 010 1.177L12.167 28.93a.977.977 0 01-.782.389">
-
-                                                        </path>
-                                                    </svg>
-                                                </div>
-                                            </button>
-                                        </li>
+                                        <ProductMenuButton title="Appliances" />
+                                        <ProductMenuButton title="TV & Home Theater" />
+                                        <ProductMenuButton title="Computers & Tablets" />
+                                        <ProductMenuButton title="Cameras & Camcorders" />
+                                        <ProductMenuButton title="Cell Phones" />
+                                        <ProductMenuButton title="Audio" />
+                                        <ProductMenuButton title="Video Games" />
+                                        <ProductMenuButton title="Movies & Music" />
+                                        <ProductMenuButton title="Car Electronics & GPS" />
+                                        <ProductMenuButton title="Wearable Technology" />
+                                        <ProductMenuButton title="Health, Fitness & Personal Care" />
+                                        <ProductMenuButton title="Home, Furniture & Office" />
+                                        <ProductMenuButton title="Smart Home, Security & Wi Fi" />
+                                        <ProductMenuButton title="Drones, Toys & Collectibles" />
+                                        <ProductMenuButton title="Best Buy Outlet" />
                                     </ul>
                                 </li>
 
-                                <li className="separator-menu-item">
+                                <MenuBoxSeperator />
 
-                                </li>
+                                <MenuBox header="Featured" items={["Be-at-Home-Essentials", "Latest from Apple", "Xbox Series X", "Dyson Corrale Hair Straightener", "Women's History Month", "PlayStation 5"]} />
 
-                                <li className="items-with-heading">
-                                    <h3 className="header">Featured</h3>
-                                    <ul>
-                                        <li className="item-child-menu">
-                                            <a href="#">Be-at-Home Essentials</a>
-                                        </li>
-                                    </ul>
-                                </li>
                                 <CloseItem />
                             </ul>
                         </div>

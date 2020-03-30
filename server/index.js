@@ -1,6 +1,6 @@
 const path = require('path');
 const express = require('express');
-const port = 3001;
+const port = process.env.PORT || 3001;
 const AWS = require('aws-sdk');
 const db = require('./db/models.js');
 var cors = require('cors')
@@ -37,7 +37,15 @@ app.post('/search', (req, res) => {
     res.status(200).send(data);
   })
   .catch(err => res.status(400).send(err));
+});
 
+app.post('/search_related', (req, res) => {
+  const text = req.body.text;
+  console.log(text);
+  db.searchRelated(text).then(data => {
+    res.status(200).send(data);
+  })
+  .catch(err => res.status(400).send(err));
 });
 
 app.listen(port, () => {

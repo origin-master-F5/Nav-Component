@@ -11,11 +11,11 @@ const ServicesMenu = props => (
                     <nav>
                         <div className="flyout-content">
                             <ul className="header-menu header-menu-visible">
-                                <MenuBox header="Brand Shops" items={["Apple", "Samsung", "Microsoft", "Sony", "Intel"]} />
+                                <MenuBox header="Get Support" items={["Chat With a Geek Squad Agent", "Schedule a Service", "Check Repair Status", "Free Virtual Consultation", "Customer Service"]} />
                                 <MenuBoxSeperator />
-                                <MenuBox header="Featured Brands" items={["Insignia", "Lenovo", "LG", "Nikon", "Bose", "Canon", "Epson", "GoPro", "HP", "All Brands"]} />
+                                <MenuBox header="Protection & Support Plans" items={["Total Tech Support Membership", "Geek Squad Protection", "AppleCare Protection & AppleCare+", "24/7 Membership Plans"]} />
                                 <MenuBoxSeperator />
-                                <MenuBox header="Specialty Shops" items={["Magnolia Audio & Video", "Pacific Kitchen & Home", "Camera Experience Shop"]} />
+                                <MenuBox header="Additional Services" items={["Tech Tips", "Trade In Your Device", "Haul Away & Recycling", "Find Replacement Parts"]} />
                                 <CloseItem />
                             </ul>
                         </div>

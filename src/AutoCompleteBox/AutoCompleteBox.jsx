@@ -7,12 +7,12 @@ const AutoCompleteBox = props => (
         <div className="navbar-autocompletebox-container" style={{ "width": "706px" }}>
             <div className="navbar-autocompletebox-split-container navbar-autocompletebox-results-container" >
                 <ul>
-                    {props.items.map(item => <SearchItem text={item.name} search={props.search} />)}
+                    {props.items.map(item => <SearchItem text={item.name} search={props.search} setProductFilter={props.setProductFilter}/>)}
                 </ul>
             </div>
             <div className="navbar-autocompletebox-split-container navbar-autocompletebox-products-container">
                 <ul>
-                    {props.items.map(item => <ProductItem item={item} />)}
+                    {props.relatedItems.map(item => <ProductItem item={item} />)}
                 </ul>
             </div>
         </div>

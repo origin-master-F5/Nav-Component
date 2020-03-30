@@ -95,7 +95,7 @@ const AccountMenu = props => (
                 </div>
             </div>
         </div>
-        <div className="navbar-arrow" style={{ "left": "calc(60% + 5px)" }}>
+        <div className="navbar-arrow" style={{ "left": "calc(54%)" }}>
 
         </div>
         <CloseButton />
