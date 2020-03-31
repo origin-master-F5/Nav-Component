@@ -5,7 +5,7 @@ fs.readFile("games.txt", (err, data) => {
     if(err) {
         console.log(err);
     } else {
-        const gamesArrayRaw = data.toString().split('\r\n');
+        const gamesArrayRaw = data.toString().split('\n');
         let gamesArray = [];
 
         for(let x = 0; x < gamesArrayRaw.length; x+=3) {
